@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgba(223, 233, 236, 0.906);
+}
+
+.table-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px 12px;
+}
+
+table {
+    border-collapse: collapse;
+    box-shadow: 1px 1px rgb(4, 9, 80);
+}
+
+h1 {
+    text-align: center;
+    padding: 30px 35px;
+    color: rgb(14, 12, 12);
+    font-size: 3em;
+}
+
+.img-100 {
+    height: 75px;
+    width: 100px;
+}
+
+.col {
+    background-color: rgb(202, 200, 200);
+}
+
+.col2 {
+    background-color: rgb(230, 230, 230);
+}
+
+.t {
+    background-color: rgba(77, 77, 77, 0.51);
+}

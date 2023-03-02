@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.box-main {
+    background-image: url("../img/landscape-1920x1079.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ul {
+    width: 100%;
+    text-align: right;
+    height: 80px;
+    margin-right: 60px;
+}
+
+li{
+    padding: 35px 35px;
+    color: black;
+    font-size: 1.4em;
+    display: inline-block;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+.last-item {
+    margin-right: 80px;
+}

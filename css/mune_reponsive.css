@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu-bar{
+    display: none;
+}
+nav{
+    background-color: rgb(123, 52, 204);
+    width: 100%;
+}
+
+nav >ul >li >ul{
+    position: absolute;
+    display: none;
+}
+ul{
+    list-style: none;
+    text-align: right;
+}
+li{
+    display: inline-block;
+    position: relative;
+}
+nav ul li:hover{
+    background-color: rgb(27, 112, 209);
+}
+nav ul li a {
+    display: block;
+    color: white;
+    font-size: 1.3em;
+    text-decoration: none;
+    padding: 20px;
+}
+.children{
+    position: absolute;
+    display: none;
+    background-color: black;
+    text-align: left;
+
+}
+nav ul li:hover .children{
+    display: block;
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid rgb(255, 255, 255,.5); 
+}
+
+.children li:hover {
+    background-color: rgb(27, 112, 209);
+    width: 100%;
+}
+h1{
+    margin: 35px;
+    text-align: right;
+    color: rgb(64, 64, 64,.8);
+    font-family: Helvetica, sans-serif;
+}
+
+p{
+    font-size: 1.3em;
+    line-height: 1.4em;
+    text-align: justify;
+}
+
+.icon-chevron-small-down {
+    float: right;
+    position: relative;
+    top: 3px;
+    padding-left: 5px;
+}
+.main-content{
+    margin: 30px;
+}
+
+@media only screen and ( max-width:720px){
+   body {
+    padding-top: 70px;
+   }
+   nav {
+    position: fixed;
+    height: 100vh;
+    width: 60%;
+    left: 0;
+   
+}
+
+.menu-bar {
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: brown;
+    
+}
+
+.bt-menu {
+    display: block;
+    padding: 20px;
+    color: white;
+    font-size:bold;
+    text-decoration: none;
+}
+.menu-bar span {
+    font-size: 40px;
+    float: right;
+}
+nav ul {
+    text-align: left;
+
+}
+nav ul li {
+    display: block;
+    border-bottom: 1px solid rgb(255, 255, 255,.5);
+}
+nav ul .children {
+    position: relative;
+    width: 100%;
+}
+nav ul li:hover .children {
+    display: none;
+    
+}
+}

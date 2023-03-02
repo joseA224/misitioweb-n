@@ -1,0 +1,20 @@
+body {
+    background-color:rgba(6, 6, 6, 0.866);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+    font-family:'Cinzel';
+    font-size: 5em;
+    color: rgba(240, 248, 255, 0.894);
+
+}
+
+@font-face{
+    font-family:'Cinzel';
+    src: url(../font/cinzel-v19-latin-regular.ttf);
+}
+

@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin:     0;
+}
+
+.contenedor1 {
+    text-align: center;
+
+    margin: 20px;
+    display: flex;
+    width: 260px;
+    height: 260px;
+    justify-content: center;
+    background-color: rgba(0, 179, 255, 0.658);
+    box-shadow: 40px 20px 15px rgba(0, 179, 255, 0.835) ;
+}
+
+.PRIMARIO {
+    display: flex;
+    justify-content: center;
+}
+
+.SEGUNDARIO {
+    display: flex;
+    justify-content: center;
+
+}
+
+.contenedor2 {
+    margin: 20px;
+    display: flex;
+    width: 260px;
+    height: 260px;
+    justify-content: center;
+    background-color: rgba(28, 53, 151, 0.876);
+    box-shadow: 40px 20px 15px rgba(0, 34, 255, 0.863) ;
+}
+
+.contenedor3 {
+    margin: 20px;
+    display: flex;
+    width: 260px;
+    height: 260px;
+    justify-content: center;
+    background-color: rgba(28, 53, 151, 0.854);
+    box-shadow: 40px 20px 15px rgba(0, 34, 255, 0.863) ;
+}
+
+.TERCEARIO {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor4 {
+    margin: 20px;
+    display: flex;
+    width: 260px;
+    height: 260px;
+    justify-content: center;
+    background-color: rgba(144, 0, 255, 0.708);
+    box-shadow: 40px 20px 15px rgba(144, 0, 255, 0.779) ;
+}
+
+.contenedor5 {
+    margin: 20px;
+    display: flex;
+    width: 260px;
+    height: 260px;
+    justify-content: center;
+    background-color: rgba(144, 0, 255, 0.718);
+    box-shadow: 40px 20px 15px rgb(144, 0, 255, 0.779) ;
+}
+
+.contenedor6 {
+    margin: 20px;
+    display: flex;
+    width: 260px;
+    height: 260px;
+    justify-content: center;
+    background-color: rgba(144, 0, 255, 0.678);
+    box-shadow: 40px 20px 15px rgb(144, 0, 255, 0.779);
+}

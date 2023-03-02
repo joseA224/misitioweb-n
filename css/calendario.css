@@ -1,0 +1,49 @@
+
+h1{
+    font-family: fantasy;
+    text-align: center;
+    font-size: 5em;
+}
+
+
+body{
+    background-color: rgb(187, 211, 231);
+}
+
+.box{
+    background-color: rgba(71, 30, 255, 0.699);
+    border: 1px solid white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 2em;
+    height: 100px;
+    box-shadow: 40px 20px 15px rgba(75, 90, 97, 0.596) ;
+
+}
+
+.dias{
+    display: grid;
+    grid-template-columns: 140px 140px 140px 140px 140px 140px 140px;
+    width: 980px;
+    margin: auto;
+}
+
+.num{
+    display: grid;
+    grid-template-columns: 140px 140px 140px 140px 140px 140px 140px;
+    width: 980px;
+    margin: auto;
+    
+}
+
+.box1{
+ 
+   grid-column-start: 3;
+   grid-column-end: 4;
+}
+
+.box-fe{
+    background-color: blueviolet;
+}

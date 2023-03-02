@@ -1,0 +1,117 @@
+* {
+    margin: 0%;
+    padding: 0;
+
+}
+
+h1, h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color:grey;
+}
+
+.main-box{
+    display: flex;
+    flex-direction: row;
+}
+
+.box-1, .box-2, .box-3, .box-4, .box-1-fixed, .box-2-fixed,.box-3-fixed, .box-1-abs, .box-2-abs {
+       width: 250px;
+       height: 250px;
+       color: white;
+       font-size: 1.5em;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+        }
+
+        .box-1, .box-2, .box-3, .box-4{
+            margin: 20px;
+        }
+  .box-3-fixed {
+       width: 70px;
+       height: 100px;
+       color: white;
+       font-size: 1.5em;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+  }
+       
+.box-1 {
+    background-color: darkcyan;
+    position: static;
+}
+.box-2 {
+    background-color: goldenrod;
+   
+}
+.box-3 {
+    background-color: orange;
+    position: static;
+}
+.box-4 {
+    background-color: darkgrey;
+
+}
+
+.box-1-fixed {
+    background-color: dodgerblue;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.box-2-fixed {
+    background-color: limegreen;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.box-3-fixed {
+    background-color: rgb(81, 50, 205);
+    position: fixed;
+    right: 0;
+    top: 17em;
+   
+}
+p {
+    font-size: 1.5em;
+    text-align: justify;
+    margin: 50px 80px;
+}
+
+      
+.box-1-abs {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: violet;
+}
+
+.box-2-abs {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(130, 152, 238);
+    color: white;
+}
+
+.main-menu {
+    width: 100%;
+    text-align: right;
+
+}
+
+.item-menu {
+    padding: 15px 30px;
+    display: inline-block;
+}
+
+p {
+    font-size: 1.5em;
+    text-align: justify;
+    margin: 50px 80px;
+}
+
