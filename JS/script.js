@@ -1,1 +1,1 @@
-alert("hiliii")
+let imgPrincipal = Document.getElementById("imgPrincipal");
