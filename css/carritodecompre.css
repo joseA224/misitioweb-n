@@ -33,8 +33,8 @@ img {
 .img-box{
    grid-area: img-box;
    width: 100%;
-   
 }
+
 
 .img-mini-1{
 grid-area: img-mini-1;
