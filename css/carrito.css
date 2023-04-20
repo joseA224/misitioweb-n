@@ -1,0 +1,88 @@
+* {
+    font-family:Tahoma, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+.box-main {
+    margin:  50px;
+    display: grid;
+    grid-template: "img-box-main empty " /
+                    435px         1fr;
+}
+img {
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.img-box-main {
+    display: grid;
+    grid-area: img-box-main;
+    width: 100%;
+grid-template:  "img-box    img-box     img-box     img-box     img-box         img-box   img-box" 435px
+                "empty-0    empty-0     empty-0     empty-0     empty-0         empty-0     empty-0" 30px
+                "box-img1 empty-1     box-img2  empty-2     box-img3     empty-3   box-img4" 90px/  
+                90px       25px        90px       25px        90px           25px        90px;
+}
+.img-box {
+    grid-area: img-box;
+    width: 100%;
+    
+}
+.img-mini{
+    width: 100%;
+}
+.box-img1{
+    grid-area: box-img1;
+}
+.box-img2 {
+    grid-area: box-img2;
+}
+.box-img3{
+    grid-area: box-img3;
+
+}
+.box-img4{
+    grid-area: box-img4;
+
+}
+.box-img-mini {
+    border: 2px solid rgb(255, 125, 26);
+    border-radius: 15px;
+}
+.img-mini-act{
+    opacity: 0.4;
+}
+
+.cant-box{
+    display: inline-flex;
+
+}
+.icon-op { 
+    width: 50px;
+    height: 50px;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: 900;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.btn-restar{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: rgb(255, 155, 56);
+    font-size: 2em;
+}
+.cant-obt{
+    color: black;
+    font-size: 1.4em;
+}
+.add-obt {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: rgb(255, 155, 56 );
+    font-size: 1,8em;
+}
