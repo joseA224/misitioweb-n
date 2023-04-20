@@ -6,8 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/carrito.css">
+    <link rel="stylesheet" href="fonts/all.css">
 </head>
 <body>
+    <div class="lightbox">
+    
+        <div class="main-lightbox">
+            <div class="btn-box">
+            <div class="btn-atras" ><i class="style-btn fa-solid fa-chevron-right"></i></div>
+            <div class="btn-adelante" ><i class="style-btn fa-solid fa-chevron-right"></i></div>
+        </div>
+        </div>
+
+    </div>
+
     <h1>carrito de compras</h1>
     <div class="box-main">
         <div class="img-box-main">
@@ -29,11 +41,13 @@
         </div>
      
         <div class="buy-box">
+            <div class="totales" id="totales">
+                <div class="valor-total" id="valorTotal">190.000</div>
+            </div>
             <div id="cantBox" class="cant-box">
                 <div id="btnRestar" class="icon-op btn-restar">-</div>
                 <div id="btnCantidad" class="icon-op cant-obj"><span id="numeroElementos">0</span></div>
                 <div id="btnSumar" class="icon-op add-obt">+</div>
-                <!-- <button class="boton">Comprar</button> -->
             </div>
         </div>
 

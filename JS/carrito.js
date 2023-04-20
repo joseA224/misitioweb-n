@@ -61,11 +61,29 @@ let btnRestar = document.getElementById("btnRestar");
 let btnCantidad = document.getElementById("btnCantidad")
 let btnSumar = document.getElementById("btnSumar");
 let cantBox = document.getElementById("cantBox");
-let numeroElementos = document.getElementById("numeroElementos")
+let numeroElementos = document.getElementById("numeroElementos");
+
+//valor Unitario y total
+let valorUnitario = 190000;
+let valorUniraioTxt = valorUnitario.toString();
+
+//programcaion orientado a objetos 
+let valorUnitarioPeso = new Intl.NumberFormat().format(valorUnitario);
+
+//identificar cantidad de elementos
+let cantNumtotal = valorUniraioTxt.length;
+
+let valortotal = document.getElementById("valorTotal");
+//Inicializando la variable
+let valorTotalInt = 0;
+//
+
+
 // let numeroElementostxt = document.getElementById("numeroElementos").innerHTML;
 
 btnSumar.addEventListener("click",function(){
     // nodeToAdd.appendChild(nodeText);
+   
     // btnCantidad.appendChild(nodeToAdd);
     let numeroElementosTxt = document.getElementById("numeroElementos").innerHTML;
 
@@ -73,6 +91,9 @@ btnSumar.addEventListener("click",function(){
     let totalElementosInt = numeroElementosInt + 1 ;
     let totalElementostxt = totalElementosInt.toString();
     numeroElementos.innerHTML = totalElementostxt;
+
+    valorTotalInt = valorUnitario * totalElementosInt;
+    valorTotal.innerHTML="$" + new Intl.NumberFormat().format(valorTotalInt);
 
 });
 btnRestar.addEventListener("click",function(){
@@ -83,6 +104,8 @@ btnRestar.addEventListener("click",function(){
         let totalElementosInt = numeroElementosInt - 1 ;
         let totalElementostxt = totalElementosInt.toString();
         numeroElementos.innerHTML = totalElementostxt;
+        valorTotalInt = valorUnitario * totalElementosInt;
+    valorTotal.innerHTML="$" + new Intl.NumberFormat().format(valorTotalInt);
     };
 });
 
