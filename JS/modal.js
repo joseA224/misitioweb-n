@@ -1,64 +1,3 @@
-// let main = document.querySelector(".img-box");
-// let miniOne = document.querySelector(".img-mini-1")
-// let miniTwo = document.querySelector(".img-mini-2")
-// let miniThree = document.querySelector(".img-mini-3")
-// let miniFour = document.querySelector(".img-mini-4")
-// let border1 = document.getElementById("border1")
-// let border2 = document.getElementById("border2")
-// let border3 = document.getElementById("border3")
-// let border4 = document.getElementById("border4")
-
-// miniOne.addEventListener("click", function () {
-//     miniOne.classList.add("img-vis")
-//     // miniOne.classList.add("border-vis")
-//     border1.classList.add("bord")
-//     main.setAttribute("src", "img/image-product-1.jpg")
-//     miniTwo.classList.remove("img-vis")
-//     miniThree.classList.remove("img-vis")
-//     miniFour.classList.remove("img-vis")
-//     border2.classList.remove("bord")
-//     border3.classList.remove("bord")
-//     border4.classList.remove("bord")
-
-// })
-// miniTwo.addEventListener("click", function () {
-//     miniTwo.classList.add("img-vis")
-//     border2.classList.add("bord")
-//     main.setAttribute("src", "img/image-product-2.jpg")
-//     miniOne.classList.remove("img-vis")
-//     miniThree.classList.remove("img-vis")
-//     miniFour.classList.remove("img-vis")
-//     border1.classList.remove("bord")
-//     border3.classList.remove("bord")
-//     border4.classList.remove("bord")
-
-// })
-
-// miniThree.addEventListener("click", function () {
-//     miniThree.classList.add("img-vis")
-//     border3.classList.add("bord")
-//     main.setAttribute("src", "img/image-product-3.jpg")
-//     miniTwo.classList.remove("img-vis")
-//     miniOne.classList.remove("img-vis")
-//     miniFour.classList.remove("img-vis")
-//     border1.classList.remove("bord")
-//     border2.classList.remove("bord")
-//     border4.classList.remove("bord")
-
-// })
-// miniFour.addEventListener("click", function () {
-//     miniFour.classList.add("img-vis")
-//     border4.classList.add("bord")
-//     main.setAttribute("src", "img/image-product-4.jpg")
-//     miniTwo.classList.remove("img-vis")
-//     miniThree.classList.remove("img-vis")
-//     miniOne.classList.remove("img-vis")
-//     border1.classList.remove("bord")
-//     border2.classList.remove("bord")
-//     border3.classList.remove("bord")
-
-// })
-
 let less = document.getElementById("less");
 let more = document.getElementById("more");
 let number = document.getElementById("number")
@@ -168,12 +107,6 @@ main.addEventListener("click", function () {
                     opactity[0].classList.remove("img-vis")
 
                     console.log("CONT " + cont)
-                    // border[7].classList.remove("bord")
-                    // border[0].classList.remove("bord")
-                    // if(cont!= 0){
-                    //     reverse = cont
-                    //     console.log("AAA " + reverse)
-                    // }
                     if (row == 1) {
                         for (let im = 0; im < mainImg.length; im++) {
                             mainImg[im].setAttribute("src", arr[cont])
@@ -234,35 +167,6 @@ main.addEventListener("click", function () {
 
         }
     }
-    // for (let index = 0; index < 2; index++) {
-    //     rowCircle[index].addEventListener("click", function () {
-
-    //         if (index == 1) {
-    //             let cont = 0
-    //             console.log("INDEZ " + index)
-    //             console.log("CONT " + cont)
-
-    //             for (let ind = 0; ind < cont +1; ind++) {
-    //                 console.log("IND-MAIN " + ind)
-    //                 for (let i = 0; i < ind + 1; i++) {
-
-    //                     console.log("IND " + ind)
-    //                     console.log("I " + i)
-    //                     if (ind == i) {
-    //                         console.log("IGUAL")
-    //                         console.log("IND-T " + ind)
-    //                         console.log("I-T " + i)
-
-    //                     } else {
-    //                         console.log("No igual")
-    //                     }
-    //                 }
-    //             }
-    //             cont = cont + 1
-    //         }
-
-    //     })
-    // }
 })
 if (document.querySelector(".main-modal-vis") == null) {
     for (let i = 0; i <= 4; i++) {
