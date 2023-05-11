@@ -1,42 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html>
+  <head>
+    <title>Mi Sitio Web</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/slides.css">
-    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/all.css">
-</head>
-<body>
-    <div class="main-content">
-         <div class="empty-left"></div>
-        <nav class="main-nav">
-           
-        <ul class="main-ul">
-            <div class="logo-box"> 
-                <img class="img-logo" src="img/logo3.png" alt="logo">
-            </div>
-         
-           <li  class="style-li"><a href="#" class="style-item">apoyanos</a></li>
-           <li  class="style-li"><a href="#" class="style-item">contactenos</a></li>
-           <li  class="style-li"><a href="#" class="style-item">unete♡</a></li>
-        
-        </ul>
-      
-      
-    </nav>
-      <div class="box-marco">
-        <i   class="flechaderecha  fa-sharp fa-solid fa-chevron-right"></i>
-        <i   class="flechaizquierda fa-sharp fa-solid fa-chevron-left"></i>
-      
-        <img id="imgbird" alt="" src="img/bird-1045954_1280.jpg" class="img-bird">
-    </div>
+    <link rel="stylesheet" type="text/css" href="css/slider.css">
+  </head>
+  <body>
 
-    <div class="empty-right"></div>
-    <div class="iconos">iconos</div>
-</div>
-     <script src="JS/slider.js"></script>
-      
-</body>
+<div class="contro">
+<div class="slideshow-container">
+   
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="img/bird-1045954_1280.jpg" style="width:100%">
+
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="img/cat-323262_1280.jpg" style="width:100%">
+  
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="img/wolves-2864647_1280.jpg" style="width:100%">
+
+    </div>
+  
+ 
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+
+ 
+
+</div> 
+
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+
+    <script src="JS/slider.js"></script>
+  </body>
 </html>
