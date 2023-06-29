@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calculadora de vencimiento</h1>
+  
+  <form id="formulario">
+    <label for="fecha">Fecha de vencimiento:</label>
+    <input type="date" id="fecha" required>
+    <br>
+    <label for="hora">Hora de vencimiento:</label>
+    <input type="time" id="hora" required>
+    <br>
+    <input type="submit" value="Calcular">
+  </form>
+
+  <div id="resultado" style="display: none;">
+    <h2>Resultado:</h2>
+    <p id="tiempo-restante"></p>
+  </div>
+</body>
+<script src="JS/fecha_formu.js"></script>
+</html>
+
+
+
+
