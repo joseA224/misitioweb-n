@@ -1,164 +1,554 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js" integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/estilo-N.css">
+    <title>Porfolio</title>
 </head>
 <body>
-    <div>
-        <nav>
-            <ul>
-                <li>home</li>
-                <li>mi portafolio</li>
-                <li>mi aprendizaje</li>
-                <ul>
-                    <li>
-                        fuentes
-                        <ul>
-                             <li><a href="disney-A.html">disney</a> </li>
-                             <li><a href="nexflit-B.html">netflix</a> </li>
-                             <li><a href="game of thrones-C.html">game of thrones</a></li>
-                            <li><a href="DS-digital-D.html">hora</a></li>                         
-                        </ul>
-                    <li>
-                            colores
-                        </li>
-                        <ul>
-                            <li><a href="colores.html">colores</a></li>
-                        </ul>
-                    <li>
-                           Span y tipo de clases
-                        </li>
-                        <ul>
-                        <li><a href="span.html">span</a></li>
-                        </ul>
-                    <li>
-                      margins, borders and pading en pixeles
-                        <ul>
-                             <li><a href="margins.html">margins</a></li>
-                        </ul>
-                    </li> 
+    <!-- Secciòn INICIO -->
+    <span class="sombra">
+        <section id="inicio" class="inicio">
+            <div class="contenido">
+                <header>
+                    <div class="logo">
+                        <i class="fa-brands fa-codepen"></i>
+                        <h1>Jose</h1>
+                    </div>
+                    <nav id="nav" class=""">
+                        <a href="#inicio">Inicio</a>
+                        <a href="#servicios">Servicios</a>
+                        <a href="#habilidades">Habilidades</a>
+                        <a href="#trabajos">Trabajos</a>
+                        <a href="#contacto">Contacto</a>
+                    </nav>
+    
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+    
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                </header>
+    
+                <div class="fila">
+                    <div class="col">
+                        <h2>Desarrollador web</h2>
+                        <p>Soy un apasionado desarrollador web con un amor por la creatividad y la resolución de problemas. Mi experiencia abarca desde la creación de elegantes interfaces hasta la implementación de funcionalidades sólidas. Siempre persigo la excelencia en cada línea de código y busco formas innovadoras de dar vida a las ideas en línea.</p>
+                        <button class="btn btn-1">Descargar CV</button>
+                    </div>
+                    <div class="col">
+                        <div class="contenedor-img">
+                            <img src="img-N/logoPRUEBA-removebg-preview.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </span>
 
-                    <li>
-                        Paisajes
-                        <ul>
-                            <li><a href="img.html">Paisajes</a></li>
-                        </ul> 
-                    </li> 
-                    
-                    <li>
-                        paisaje 2
-                    </li>
-                    <ul>
-                        <li><a href="img-2.html">paisaje 2</a></li>
-                    </ul>
-                    <li>
-                        MENÚ
-                    </li>
-                    <ul>
-                        <li><a href="menus.html">menu</menu></a></li>
-                    </ul>
-                    <li>
-                        contenedores
-                    </li>
-                    <ul>
-                        <li><a href="contenedores.html">contenedores</menu></a></li>
-                    </ul>
-                    <li>
-                        TABLA
-                    </li>
-                    <ul>
-                        <li><a href="TABLA.html">tabla</menu></a></li>
-                        <li><a href="tablacom.html">tabla combinada</menu></a></li>
-                    </ul>
-                    <li>
-                        Formulario
-                    </li>
-                    <ul>
-                        <li><a href="formulario.html">formulario</menu></a></li>
-                    </ul>
-                    <li>
-                        Login
-                    </li>
-                    <ul>
-                        <li><a href="login.html">login</menu></a></li>
-                    </ul> 
-                    <li>
-                        Menu
-                    </li>
-                    <ul>
-                        <li><a href="menus-iconos.html">menu-iconos</menu></a></li>
-                        <li><a href="menu-kayak.html">menu-kayak</menu></a></li>
-                    </ul>  
-                </li>
-                <ul>
-                    <li><a href="menuhorizonta.html">menu-sena</menu-sena></a></li>
-                </ul>   
-            </li>
-            <ul>
-                <li><a href="posicionamiento_relativo.html">Posiciomamiento-R</menu-sena></a></li>
-            </ul> 
-        </li>
-        <ul>
-            <li><a href="menu-subitems.html">Subitems</menu-sena></a></li>
-        </ul> 
-    </li>
-    <ul>
-        <li><a href="menuunidersidadnacinal.html">menu-2</menu></a></li>
-    </ul> 
-</li>
-<ul>
-    <li><a href="media_query.html">menu-3</menu></a></li>
-</ul> 
-</li>
-<ul>
-    <li><a href="basckground.html">fondo de pantalla</a></li>
-</ul>
-    <li>
-        Reponsive
-    </li>
-    <ul>
-        <li><a href="menu_reponsive.html">menu reponsive</menu></a></li>
-    </ul> 
-        <li>
-            transition
-            </li>
-            <ul>
-                     <li><a href="transition.html">transition</a></li>                 
-            </ul>
-            <li>
-                flex-box
-            </li>
-            <ul>
-                <li><a href="flex-box.html">flex-box</a></li>
-                <li><a href="calendario.html">calendario</a></li>
-            </ul>
-            <li>Maquetacion</li>
-            <ul>
-                <li><a href="maquetacion-ejemplo.html">maquetacion-ejemplo</a></li>
-                <li><a href="maquetacion.html">maquetacion</a></li>
-            </ul>
-            <li>carrito</li>
-            <ul>
-                <li><a href="carrito.html">carrito de compras</a></li>
-                
-            </ul>
-            <li>slider</li>
-            <ul>
-                <li><a href="slider.html">slider</a></li>
-                <li><a href="registroalerta.html">registroalerta</a></li>
-            </ul>
-            <li>buscador</li>
-            <ul>
-                <li><a href="homecenter.html">homecenter</a></li>
-            </ul>
+    <!-- sección SERVICIOS -->
+    <section id="servicios" class="servicios">
+        <div class="fila">
+            <div class="col">
+                <div class="card">
+                    <div class="icono color1">
+                        <div class="circulo">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                    </div>
+                    <h3>Diseño Web</h3>
+                    <p>Soy un apasionado del diseño web, fusionando creatividad y funcionalidad para construir experiencias digitales cautivadoras y eficientes.</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color2">
+                        <div class="circulo">
+                            <i class="fa-solid fa-palette"></i>
+                        </div>
+                    </div>
+                    <h3>Diseño Gráfico</h3>
+                    <p>Destrezas en diseño gráfico que dan vida a la creatividad, fusionando color y forma con impacto visual cautivador.</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color3">
+                        <div class="circulo">
+                            <i class="fa-solid fa-video"></i>
+                        </div>
+                    </div>
+                    <h3>Gestion de base de datos</h3>
+                    <p>Administro datos eficientemente, organizando y garantizando acceso seguro, respaldo y optimización para un flujo efectivo de información.</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <!-- <div class="col">
+                <div class="card">
+                    <div class="icono color1">
+                        <div class="circulo">
+                            <i class="fa-solid fa-bullhorn"></i>
+                        </div>
+                    </div>
+                    <h3>Marketing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta inventore neque ducimus cupiditate, placeat incidunt culpa quis quod distinctio.</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div> -->
+            <!-- <div class="col">
+                <div class="card">
+                    <div class="icono color2">
+                        <div class="circulo">
+                            <i class="fa-solid fa-circle-info"></i>
+                        </div>
+                    </div>
+                    <h3>Soporte Clientes</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta inventore neque ducimus cupiditate, placeat incidunt culpa quis quod distinctio.</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div> -->
+            <div class="col">
+                <div class="card">
+                    <div class="icono color3">
+                        <div class="circulo">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </div>
+                    <h3>Acerca de </h3>
+                    <p>Conoce un poco de mi vida laboral a fondo</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- sección habilidades -->
+    <section class="habilidades" id="habilidades">
+        <div class="contenedor-habi">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="90">
+                                90%
+                            </div>
+                            <h2>HTML & CSS</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="20">
+                                20%
+                            </div>
+                            <h2>PYTHON</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="50">
+                                50%
+                            </div>
+                            <h2>JAVASCRIPT</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="50">
+                                50%
+                            </div>
+                            <h2>MYSQL</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="50">
+                                50%
+                            </div>
+                            <h2>PHP</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="30">
+                                30%
+                            </div>
+                            <h2>PHOTOSHOP</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- sección trabajos -->
+    <section class="trabajos" id="trabajos">
+        <h2>Mis Trabajos</h2>
+
+        <nav>
+            <a href="javascript:void(0)" class="borde" id="item" onclick="verCategoria('item')">Todos</a>
+            <a href="javascript:void(0)" class="" id="fuentes" onclick="verCategoria('fuentes')">fuentes</a>
+            <a href="javascript:void(0)" class="" id="tablas" onclick="verCategoria('tablas')">Tablas y formularios</a>
+            <a href="javascript:void(0)" class="" id="menu" onclick="verCategoria('menu')">Menu</a>
+            <a href="javascript:void(0)" class="" id="grid" onclick="verCategoria('grid')">grid y flex-box</a>
+            <a href="javascript:void(0)" class="" id="contenedores" onclick="verCategoria('contenedores')">contenedores</a>
         </nav>
 
+        <div class="galeria">
+            <div class="item fuentes">
+                <img src="img-N/aliniacion.png" alt="">
+                <div class="info">
+                    <h3>alineacion</h3>
+                    <span>html</span><span>css</span>
+                    <a href="alineacion.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item menu">
+                <img src="img-N/basckground.png" alt="">
+                <div class="info">
+                    <h3>basckground</h3>
+                    <span>html</span><span>css</span>
+                    <a href="basckground.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item fuentes">
+                <img src="img-N/disney.png" alt="">
+                <div class="info">
+                    <h3>Disney</h3>
+                    <span>html</span><span>css</span>
+                    <a href="disney-A.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item tablas">
+                <img src="img-N/calendario.png" alt="">
+                <div class="info">
+                    <h3>calendario</h3>
+                    <span>html</span><span>css</span>
+                    <a href="calendario.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item menu">
+                <img src="img-N/carrito.png" alt="">
+                <div class="info">
+                    <h3>carrito</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="carrito.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item fuentes">
+                <img src="img-N/colores.png" alt="">
+                <div class="info">
+                    <h3>Colores</h3>
+                    <span>html</span><span>css</span>
+                    <a href="colores.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item contenedores">
+                <img src="img-N/contenedores.png" alt="">
+                <div class="info">
+                    <h3>contenedores</h3>
+                    <span>html</span><span>css</span>
+                    <a href="contenedores.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item fuentes">
+                <img src="img-N/DS-digital.png" alt="">
+                <div class="info">
+                    <h3>DS-digital-D</h3>
+                    <span>html</span><span>css</span>
+                    <a href="DS-digital-D.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item tablas">
+                <img src="img-N/fecha.png" alt="">
+                <div class="info">
+                    <h3>fecha</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="fecha.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item tablas">
+                <img src="img-N/fecha formulario.png" alt="">
+                <div class="info">
+                    <h3>fecha formulario</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="fecha_formu.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item grid">
+                <img src="img-N/flex-box.png" alt="">
+                <div class="info">
+                    <h3>flex-box</h3>
+                    <span>html</span><span>css</span>
+                    <a href="flex-box.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item tablas">
+                <img src="img-N/formulario.png" alt="">
+                <div class="info">
+                    <h3>formulario</h3>
+                    <span>html</span><span>css</span>
+                    <a href="formulario.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item fuentes">
+                <img src="img-N/gameof thrones.png" alt="">
+                <div class="info">
+                    <h3>game of thrones</h3>
+                    <span>html</span><span>css</span>
+                    <a href="game of thrones-C.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item grid">
+                <img src="img-N/grid.png" alt="">
+                <div class="info">
+                    <h3>fecha formulario</h3>
+                    <span>html</span><span>css</span>
+                    <a href="grid.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item menu">
+                <img src="img-N/homecenter.png" alt="">
+                <div class="info">
+                    <h3>Home Center</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="homecenter.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item contenedores">
+                <img src="img-N/img.png" alt="">
+                <div class="info">
+                    <h3>Imagenes contendor</h3>
+                    <span>html</span><span>css</span>
+                    <a href="img.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item contenedores">
+                <img src="img-N/img2.png" alt="">
+                <div class="info">
+                    <h3>imagenes contendor 2</h3>
+                    <span>html</span><span>css</span>
+                    <a href="img-2.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item tablas">
+                <img src="img-N/login.png" alt="">
+                <div class="info">
+                    <h3>login</h3>
+                    <span>html</span><span>css</span>
+                    <a href="login.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item menu">
+                <img src="img-N/maquetacion.png" alt="">
+                <div class="info">
+                    <h3>maquetacion</h3>
+                    <span>html</span><span>css</span>
+                    <a href="maquetacion-ejemplo.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item fuentes">
+                <img src="img-N/margins.png" alt="">
+                <div class="info">
+                    <h3>Margins</h3>
+                    <span>html</span><span>css</span>
+                    <a href="margins.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item menu">
+                <img src="img-N/mediaquery.png" alt="">
+                <div class="info">
+                    <h3>media-query</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="media_query.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item menu">
+                <img src="img-N/menuresponsive.png" alt="">
+                <div class="info">
+                    <h3>Menu responsive</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="menu_reponsive.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item menu">
+                <img src="img-N/menuhorizontal.png" alt="">
+                <div class="info">
+                    <h3>Menu horizontal</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="menuhorizonta.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item menu">
+                <img src="img-N/menukayak.png" alt="">
+                <div class="info">
+                    <h3>Menu kayak</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="menu-kayak.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item menu">
+                <img src="img-N/menuU.png" alt="">
+                <div class="info">
+                    <h3>Menu universidad</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="menuunidersidadnacinal.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item fuentes">
+                <img src="img-N/nexflit.png" alt="">
+                <div class="info">
+                    <h3>netflix</h3>
+                    <span>html</span><span>css</span>
+                    <a href="nexflit-B.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item contenedores">
+                <img src="img-N/posis.png" alt="">
+                <div class="info">
+                    <h3>Posiciomamiento</h3>
+                    <span>html</span><span>css</span>
+                    <a href="posicionamiento.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item contenedores">
+                <img src="img-N/posis-r.png" alt="">
+                <div class="info">
+                    <h3>posicionamiento relativo</h3>
+                    <span>html</span><span>css</span>
+                    <a href="posicionamiento_relativo.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item tabla">
+                <img src="img-N/alerta.png" alt="">
+                <div class="info">
+                    <h3>registro alerta</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="registroalerta.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item menu">
+                <img src="img-N/slider.png" alt="">
+                <div class="info">
+                    <h3>slider</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="slider.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item tabla">
+                <img src="img-N/alerta.png" alt="">
+                <div class="info">
+                    <h3>registro alerta</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="registroalerta.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item fuentes">
+                <img src="img-N/sapn.png" alt="">
+                <div class="info">
+                    <h3>span</h3>
+                    <span>html</span><span>css</span>
+                    <a href="span.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item tabla">
+                <img src="img-N/tablas.png" alt="">
+                <div class="info">
+                    <h3>tabla</h3>
+                    <span>html</span><span>css</span>
+                    <a href="TABLA.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item tabla">
+                <img src="img-N/tabla2.png" alt="">
+                <div class="info">
+                    <h3>tabla2</h3>
+                    <span>html</span><span>css</span>
+                    <a href="tablacom.html">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item grid">
+                <img src="img-N/transition.png" alt="">
+                <div class="info">
+                    <h3>transition</h3>
+                    <span>html</span><span>css</span>
+                    <a href="transition.html">Ver Trabajo</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- sección contacto -->
+    <section class="contacto" id="contacto">
+        <div class="contenedor-contacto">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <div class="col">
+                    <div class="info">
+                        <h3>Nombre:</h3>
+                        <p>Francisco Jose Alvarez Oviedo</p>
+                    </div>
+                    <div class="info">
+                        <h3>Email:</h3>
+                        <p>floquillo224@gmail.com</p>
+                    </div>
+                    <div class="info">
+                        <h3>Teléfono:</h3>
+                        <p>+57 3132283399</p>
+                    </div>
+                    <div class="info">
+                        <h3>País</h3>
+                        <p>Colombia</p>
+                    </div>
+                    <div class="info">
+                        <h3>Ciudad:</h3>
+                        <p>Pitalito</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <input type="text" placeholder="Nombre...">
+                    <input type="text" placeholder="Correo...">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <input type="submit" value="Enviar" class="btn">
+                </div>
+            </div>
+        </div>
+    </section>
 
-    </div>
+    <footer>
+    </footer>
+    <script src="JS/app-N.js"></script>
 </body>
 </html>
