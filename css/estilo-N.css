@@ -188,8 +188,8 @@ body{
 }
 /* seccion HABILIDADES */
 .habilidades{
-    background:linear-gradient(to right, #000c76, #007be5);
-    color: #fff;
+    background:linear-gradient(to right, #ff0000dc, #010a81b7);
+    color: #000000;
     padding: 60px 0;
     position: relative;
     top: -100px;
@@ -208,6 +208,7 @@ body{
 .score{
     padding: 10px;
     margin: auto 0;
+
 }
 .score .box{
     width: 100%;
@@ -249,17 +250,17 @@ body{
     text-decoration: none;
     display: inline-block;
     margin: 0 20px;
-    color: #007be5;
+    color: #000000;
     font-weight: bold;
     padding: 3px 10px;
     border: 3px solid transparent;
 }
 .trabajos nav a:hover{
-    border: 3px solid #ff5b00;
+    border: 3px solid #000000;
 }
 /* Esta clase se agregrá dinámicamente cuando haya seleccionada una opción */
 .borde{
-    border: 3px solid #ff5b00 !important;  
+    border: 3px solid #000000 !important;  
 }
 .trabajos .galeria .item img{
     width: 100%;
@@ -314,10 +315,9 @@ body{
 /* SECCIÓN C O N T A C T O */
 .contacto{
     background:
-        linear-gradient(rgba(0,12,103,1), rgba(0,12,103,.8)),
-        url(img/foto-contacto.png);
+         linear-gradient(to right, #ff0000dc, #010a81b7);
         background-size: cover;
-        color: #fff;
+        color: #000000;
         margin-top: 100px;
         padding: 80px 20px;
 }
@@ -337,34 +337,34 @@ body{
 }
 .contacto .contenedor-contacto .info{
     margin-bottom: 30px;
-    border-left: 3px solid #8d8d8d;
+    border-left: 3px solid #000000;
     padding-left: 8px;
 }
 .contacto .contenedor-contacto .info p{
-    color: #8d8d8d;
+    color: #000000;
 }
 .contacto input, .contacto textarea{
     width: 100%;
     border: none;
     background-color: transparent;
     padding: 10px;
-    border: 1px solid #8d8d8d ;
+    border: 1px solid #ffff ;
     margin-bottom: 20px;
     outline: none;
-    color: #ff5b00;
+    color: #ffffff;
 }
 .contacto .btn{
     background-color: none;
     padding: 5px 40px;
     border: 2px solid;
-    color: #fff;
+    color: #ffffffce;
     cursor: pointer;
-    background: linear-gradient(to right, #ff5b00, #ff9900);
+    background: linear-gradient(to right, #000000ab,#00000085);
 }
 
 footer{
     background-color: #000;
-    color: #fff;
+    color: #000000;
     padding: 7px 0;
     font-size: 14px;
     text-align: center;
@@ -384,7 +384,7 @@ footer{
         display: none;
     }
     #nav.responsive{
-        background-color: rgba(0,0,0,.9);
+        background-color: rgba(173, 173, 173, 0.9);
         top: 0;
         left: 0;
         height: 100vh;

@@ -3,7 +3,7 @@ function cargarAnimaciones(){
     $(function(){
         $('.chart1').easyPieChart({
             size:160,
-            barColor:"#ff5b00",
+            barColor:"#000000",
             scaleLength:0,
             lineWidth:15,
             tackColor:"#525151",
@@ -12,7 +12,7 @@ function cargarAnimaciones(){
         });
         $('.chart2').easyPieChart({
             size:160,
-            barColor:"#ff5b00",
+            barColor:"#000000",
             scaleLength:0,
             lineWidth:15,
             tackColor:"#525151",
@@ -21,7 +21,7 @@ function cargarAnimaciones(){
         });
         $('.chart3').easyPieChart({
             size:160,
-            barColor:"#ff5b00",
+            barColor:"#000000",
             scaleLength:0,
             lineWidth:15,
             tackColor:"#525151",
@@ -30,7 +30,7 @@ function cargarAnimaciones(){
         });
         $('.chart4').easyPieChart({
             size:160,
-            barColor:"#ff5b00",
+            barColor:"#000000",
             scaleLength:0,
             lineWidth:15,
             tackColor:"#525151",
@@ -39,7 +39,7 @@ function cargarAnimaciones(){
         });
         $('.chart5').easyPieChart({
             size:160,
-            barColor:"#ff5b00",
+            barColor:"#000000",
             scaleLength:0,
             lineWidth:15,
             tackColor:"#525151",
@@ -48,7 +48,7 @@ function cargarAnimaciones(){
         });
         $('.chart6').easyPieChart({
             size:160,
-            barColor:"#ff5b00",
+            barColor:"#000000",
             scaleLength:0,
             lineWidth:15,
             tackColor:"#525151",
