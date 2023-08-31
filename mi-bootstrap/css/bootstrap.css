@@ -1,0 +1,17 @@
+.box-example{
+    width: 300px;
+    height: 300px;
+}
+.box-example-breakpoints{
+    height: 100px;
+    margin-bottom: 20px;
+    color: white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-size: 2em;
+}
+
+.style-border{
+    border: solid black 1px;
+}
