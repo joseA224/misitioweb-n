@@ -367,15 +367,15 @@ input {
     right: 50px;
 }
 .slider-view-2 {
-    transition: all 700ms;
+    /* transition: all 700ms; */
     right: 380px;
 }
 .slider-view-3 {
-    transition: all 700ms;
+    /* transition: all 700ms; */
     right: 710px;
 }
 .slider-view-4 {
-    transition: all 700ms;
+    /* transition: all 700ms; */
     right: 1040px;
 }
 .box-slider {
