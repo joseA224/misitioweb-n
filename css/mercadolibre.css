@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100;
+    display: grid;
+    grid-template:"logo input-busqueda carrito" 56px 
+                   50px 1fr        50px;
+}
+
+.logo{
+    grid-area: logo;
+    padding: 15px;
+}
+
+.box-input-busqueda{
+    grid-area: box-input-busqueda;
+    width: 100%;
+    padding: 15px;
+}
+
+.input-busqueda{
+    
+}
