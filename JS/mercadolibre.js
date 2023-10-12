@@ -7,7 +7,7 @@ class Automovil{
     }
 }
 
-let auto1 = new Automovil("Toyota","Prado 2.8 Tx-l 4x4", 200000000,"2023 • 5.900Km • Medellín - Antioquia" );
+let auto1 = new Automovil("Toyota","Prado 2.8 Tx-l 4x4", 200000000,"2023 • 5.900Km • Medellín - Antioquia", "img/toyotaxl.png" );
 
 let inputBusqueda = document.getElementById("inputBusqueda");
 
