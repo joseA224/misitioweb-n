@@ -27,7 +27,7 @@ window.addEventListener("load", function(){
     let imgAuto = document.createElement("img");
     boxImg.appendChild(imgAuto);
     boxImg.setAttribute("class", "box-img");
-    imgAuto.setAttribute("src", "img/Toyota xl.png")
+    imgAuto.setAttribute("src", "img/Toyotaxl.png")
     imgAuto.setAttribute("class", "img-auto");
 
     /*crear contenedor para la informacion*/
