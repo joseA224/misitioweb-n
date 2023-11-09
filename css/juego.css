@@ -6,7 +6,7 @@
 .nave{
     width: 80px;
     height: 80px;
-    background-image: url('../img/nave.png');
+    background-image: url('../img/nave_space2.png');
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -14,7 +14,7 @@
     left: calc(50vw - 40px);
 }
 body{
-    background-image: url('../img/espacio1.png');
+    background-image: url('');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -24,15 +24,15 @@ body{
 .bala{
     width: 10px;
     height: 50px;
-    background-color:rgb(234,243,150);
+    background-color:rgb(0, 0, 0);
     border-radius: 15px;
-    box-shadow: 0px 0px 40px 10px #0ff;
+    box-shadow: 0px 0px 40px 10px rgb(0, 0, 0);
     position: absolute;
 }
 .enemigo{
     width: 90px;
     height: 70px;
-    background-image: url('../img/alien.png');
+    background-image: url('../img/ALIEN_SPACE.png');
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
